@@ -1,3 +1,3 @@
-module github.com/tflexsoom/go-tree
+module github.com/TFlexSoom/go-tree
 
 go 1.21
