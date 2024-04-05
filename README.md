@@ -3,10 +3,19 @@ A golang implementation of trees because I end up coding this up myself too ofte
 I would recommend a more standard library but if you like the implementation feel
 free to use this container package.
 
+## Pre-requisites
+1. Install Go
+
 ## go pkg
 `go add go-tree`
 
+## How to test
+`go test ./... -v`
+
 ## Documentation
+
+### Thread-safety
+This container is not threadsafe. Instances must never be shared across instances.
 
 ### Creating a tree
 You have two choices of implementations. The tree type itself is the same generically.
