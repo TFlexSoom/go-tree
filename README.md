@@ -7,7 +7,22 @@ free to use this container package.
 1. Install Go
 
 ## go pkg
-`go add go-tree`
+`go get github.com/TFlexSoom/go-tree`
+
+## use in code
+```go
+
+import (
+  tree "github.com/TFlexSoom/go-tree/lib"
+  "fmt"
+)
+
+func foo() {
+  t := tree.NewLinkedTree[uint64]()
+  fmt.Println("%v", t)
+}
+
+```
 
 ## How to test
 `go test ./... -v`
